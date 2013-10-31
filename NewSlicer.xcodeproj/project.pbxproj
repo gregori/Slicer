@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B1D0D5917D01E8B005F1733 /* libGLUTFramework.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1D0D5817D01E8B005F1733 /* libGLUTFramework.dylib */; };
+		5B1D0D5C17D01F55005F1733 /* NewSlicerGLUTOO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B1D0D5B17D01F55005F1733 /* NewSlicerGLUTOO.cpp */; };
+		5B2510F3182097C400F52CC0 /* TataSlicer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B2510F2182097C400F52CC0 /* TataSlicer.cpp */; };
+		5B25117B18216D3400F52CC0 /* MeshSlicer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B25117A18216D3400F52CC0 /* MeshSlicer.cpp */; };
+		5B5475D4181B27CA005E3ED6 /* libboost_regex-mt.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5475D3181B27CA005E3ED6 /* libboost_regex-mt.dylib */; };
+		5B64A34F17EBE558009757DC /* SetSlicer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B64A34E17EBE558009757DC /* SetSlicer.cpp */; };
+		5B86E22D17EF447A0024378A /* TriangleSlicer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B86E22C17EF447A0024378A /* TriangleSlicer.cpp */; };
+		5BC7C5E417B7DB4700A3ABE5 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC7C5E317B7DB4700A3ABE5 /* GLUT.framework */; };
+		5BC7C5E617B7DB4700A3ABE5 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC7C5E517B7DB4700A3ABE5 /* OpenGL.framework */; };
+		5BC7C62617B7DB8D00A3ABE5 /* ASCIIFileImp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C5E917B7DB8D00A3ABE5 /* ASCIIFileImp.cpp */; };
+		5BC7C62717B7DB8D00A3ABE5 /* ASCIISTLParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C5EB17B7DB8D00A3ABE5 /* ASCIISTLParser.cpp */; };
+		5BC7C62817B7DB8D00A3ABE5 /* BinarySTLParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C5ED17B7DB8D00A3ABE5 /* BinarySTLParser.cpp */; };
+		5BC7C62917B7DB8D00A3ABE5 /* ComplexGeometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C5EF17B7DB8D00A3ABE5 /* ComplexGeometry.cpp */; };
+		5BC7C62A17B7DB8D00A3ABE5 /* Contour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C5F117B7DB8D00A3ABE5 /* Contour.cpp */; };
+		5BC7C62B17B7DB8D00A3ABE5 /* Facet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C5F317B7DB8D00A3ABE5 /* Facet.cpp */; };
+		5BC7C62C17B7DB8D00A3ABE5 /* Geometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C5F517B7DB8D00A3ABE5 /* Geometry.cpp */; };
+		5BC7C62D17B7DB8D00A3ABE5 /* GeometryList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C5F717B7DB8D00A3ABE5 /* GeometryList.cpp */; };
+		5BC7C62E17B7DB8D00A3ABE5 /* Graphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C5F917B7DB8D00A3ABE5 /* Graphics.cpp */; };
+		5BC7C62F17B7DB8D00A3ABE5 /* GraphicsImp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C5FB17B7DB8D00A3ABE5 /* GraphicsImp.cpp */; };
+		5BC7C63117B7DB8D00A3ABE5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C60017B7DB8D00A3ABE5 /* main.cpp */; };
+		5BC7C63217B7DB8D00A3ABE5 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C60117B7DB8D00A3ABE5 /* Makefile */; };
+		5BC7C63317B7DB8D00A3ABE5 /* Mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C60217B7DB8D00A3ABE5 /* Mesh.cpp */; };
+		5BC7C63417B7DB8D00A3ABE5 /* Offset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C60417B7DB8D00A3ABE5 /* Offset.cpp */; };
+		5BC7C63517B7DB8D00A3ABE5 /* OrderedMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C60617B7DB8D00A3ABE5 /* OrderedMesh.cpp */; };
+		5BC7C63617B7DB8D00A3ABE5 /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C60817B7DB8D00A3ABE5 /* Point.cpp */; };
+		5BC7C63717B7DB8D00A3ABE5 /* PointFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C60A17B7DB8D00A3ABE5 /* PointFactory.cpp */; };
+		5BC7C63817B7DB8D00A3ABE5 /* ProcessController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C60C17B7DB8D00A3ABE5 /* ProcessController.cpp */; };
+		5BC7C63917B7DB8D00A3ABE5 /* Raster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C60E17B7DB8D00A3ABE5 /* Raster.cpp */; };
+		5BC7C63A17B7DB8D00A3ABE5 /* Rect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C61017B7DB8D00A3ABE5 /* Rect.cpp */; };
+		5BC7C63B17B7DB8D00A3ABE5 /* SimpleGeometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C61217B7DB8D00A3ABE5 /* SimpleGeometry.cpp */; };
+		5BC7C63C17B7DB8D00A3ABE5 /* SimpleSlicer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C61417B7DB8D00A3ABE5 /* SimpleSlicer.cpp */; };
+		5BC7C63D17B7DB8D00A3ABE5 /* SimpleTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C61617B7DB8D00A3ABE5 /* SimpleTriangle.cpp */; };
+		5BC7C63E17B7DB8D00A3ABE5 /* Slice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C61817B7DB8D00A3ABE5 /* Slice.cpp */; };
+		5BC7C63F17B7DB8D00A3ABE5 /* Slicer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C61A17B7DB8D00A3ABE5 /* Slicer.cpp */; };
+		5BC7C64017B7DB8D00A3ABE5 /* Solid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C61C17B7DB8D00A3ABE5 /* Solid.cpp */; };
+		5BC7C64117B7DB8D00A3ABE5 /* STLParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C61E17B7DB8D00A3ABE5 /* STLParser.cpp */; };
+		5BC7C64217B7DB8D00A3ABE5 /* TraditionalMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C62017B7DB8D00A3ABE5 /* TraditionalMesh.cpp */; };
+		5BC7C64417B7DB8D00A3ABE5 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C62417B7DB8D00A3ABE5 /* Vector.cpp */; };
+		5BC7C64717B7DBF300A3ABE5 /* OpenGLImp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7C64517B7DBF300A3ABE5 /* OpenGLImp.cpp */; };
+		5BC8B99717DE9E0B00EF0407 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8B99517DE9E0B00EF0407 /* Timer.cpp */; };
+		5BC8BA8317DFE49200EF0407 /* YangEdge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8BA8217DFE49200EF0407 /* YangEdge.cpp */; };
+		5BC8BADA17E1600800EF0407 /* YangFacet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8BAD917E1600800EF0407 /* YangFacet.cpp */; };
+		5BCA3251181D563800920DAC /* CSVWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BCA3250181D563800920DAC /* CSVWriter.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B1D0D5817D01E8B005F1733 /* libGLUTFramework.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLUTFramework.dylib; path = "/Users/rodrigo/Projetos/GLUT-Object-Oriented-Framework/xcode/GLUT_Framework/build/Release/libGLUTFramework.dylib"; sourceTree = "<absolute>"; };
+		5B1D0D5A17D01F55005F1733 /* NewSlicerGLUTOO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewSlicerGLUTOO.h; sourceTree = "<group>"; };
+		5B1D0D5B17D01F55005F1733 /* NewSlicerGLUTOO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NewSlicerGLUTOO.cpp; sourceTree = "<group>"; };
+		5B1D0D9317D3D513005F1733 /* libboost_regex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_regex.dylib; path = /opt/local/lib/libboost_regex.dylib; sourceTree = "<absolute>"; };
+		5B2510F1182097C400F52CC0 /* TataSlicer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TataSlicer.h; sourceTree = "<group>"; };
+		5B2510F2182097C400F52CC0 /* TataSlicer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TataSlicer.cpp; sourceTree = "<group>"; };
+		5B25117918216D3400F52CC0 /* MeshSlicer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshSlicer.h; sourceTree = "<group>"; };
+		5B25117A18216D3400F52CC0 /* MeshSlicer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeshSlicer.cpp; sourceTree = "<group>"; };
+		5B5475D3181B27CA005E3ED6 /* libboost_regex-mt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libboost_regex-mt.dylib"; path = "/opt/local/lib/libboost_regex-mt.dylib"; sourceTree = "<absolute>"; };
+		5B64A34D17EBE558009757DC /* SetSlicer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetSlicer.h; sourceTree = "<group>"; };
+		5B64A34E17EBE558009757DC /* SetSlicer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SetSlicer.cpp; sourceTree = "<group>"; };
+		5B86E22B17EF447A0024378A /* TriangleSlicer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleSlicer.h; sourceTree = "<group>"; };
+		5B86E22C17EF447A0024378A /* TriangleSlicer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TriangleSlicer.cpp; sourceTree = "<group>"; };
+		5BC7C5DB17B7DB1B00A3ABE5 /* NewSlicer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewSlicer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC7C5DE17B7DB1C00A3ABE5 /* NewSlicer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewSlicer-Info.plist"; sourceTree = "<group>"; };
+		5BC7C5E317B7DB4700A3ABE5 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		5BC7C5E517B7DB4700A3ABE5 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		5BC7C5E917B7DB8D00A3ABE5 /* ASCIIFileImp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASCIIFileImp.cpp; sourceTree = "<group>"; };
+		5BC7C5EA17B7DB8D00A3ABE5 /* ASCIIFileImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCIIFileImp.h; sourceTree = "<group>"; };
+		5BC7C5EB17B7DB8D00A3ABE5 /* ASCIISTLParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASCIISTLParser.cpp; sourceTree = "<group>"; };
+		5BC7C5EC17B7DB8D00A3ABE5 /* ASCIISTLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCIISTLParser.h; sourceTree = "<group>"; };
+		5BC7C5ED17B7DB8D00A3ABE5 /* BinarySTLParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySTLParser.cpp; sourceTree = "<group>"; };
+		5BC7C5EE17B7DB8D00A3ABE5 /* BinarySTLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinarySTLParser.h; sourceTree = "<group>"; };
+		5BC7C5EF17B7DB8D00A3ABE5 /* ComplexGeometry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ComplexGeometry.cpp; sourceTree = "<group>"; };
+		5BC7C5F017B7DB8D00A3ABE5 /* ComplexGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplexGeometry.h; sourceTree = "<group>"; };
+		5BC7C5F117B7DB8D00A3ABE5 /* Contour.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Contour.cpp; sourceTree = "<group>"; };
+		5BC7C5F217B7DB8D00A3ABE5 /* Contour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contour.h; sourceTree = "<group>"; };
+		5BC7C5F317B7DB8D00A3ABE5 /* Facet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Facet.cpp; sourceTree = "<group>"; };
+		5BC7C5F417B7DB8D00A3ABE5 /* Facet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facet.h; sourceTree = "<group>"; };
+		5BC7C5F517B7DB8D00A3ABE5 /* Geometry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Geometry.cpp; sourceTree = "<group>"; };
+		5BC7C5F617B7DB8D00A3ABE5 /* Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geometry.h; sourceTree = "<group>"; };
+		5BC7C5F717B7DB8D00A3ABE5 /* GeometryList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeometryList.cpp; sourceTree = "<group>"; };
+		5BC7C5F817B7DB8D00A3ABE5 /* GeometryList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeometryList.h; sourceTree = "<group>"; };
+		5BC7C5F917B7DB8D00A3ABE5 /* Graphics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Graphics.cpp; sourceTree = "<group>"; };
+		5BC7C5FA17B7DB8D00A3ABE5 /* Graphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graphics.h; sourceTree = "<group>"; };
+		5BC7C5FB17B7DB8D00A3ABE5 /* GraphicsImp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraphicsImp.cpp; sourceTree = "<group>"; };
+		5BC7C5FC17B7DB8D00A3ABE5 /* GraphicsImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsImp.h; sourceTree = "<group>"; };
+		5BC7C5FF17B7DB8D00A3ABE5 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		5BC7C60017B7DB8D00A3ABE5 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5BC7C60117B7DB8D00A3ABE5 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		5BC7C60217B7DB8D00A3ABE5 /* Mesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mesh.cpp; sourceTree = "<group>"; };
+		5BC7C60317B7DB8D00A3ABE5 /* Mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mesh.h; sourceTree = "<group>"; };
+		5BC7C60417B7DB8D00A3ABE5 /* Offset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Offset.cpp; sourceTree = "<group>"; };
+		5BC7C60517B7DB8D00A3ABE5 /* Offset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Offset.h; sourceTree = "<group>"; };
+		5BC7C60617B7DB8D00A3ABE5 /* OrderedMesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OrderedMesh.cpp; sourceTree = "<group>"; };
+		5BC7C60717B7DB8D00A3ABE5 /* OrderedMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderedMesh.h; sourceTree = "<group>"; };
+		5BC7C60817B7DB8D00A3ABE5 /* Point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Point.cpp; sourceTree = "<group>"; };
+		5BC7C60917B7DB8D00A3ABE5 /* Point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point.h; sourceTree = "<group>"; };
+		5BC7C60A17B7DB8D00A3ABE5 /* PointFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PointFactory.cpp; sourceTree = "<group>"; };
+		5BC7C60B17B7DB8D00A3ABE5 /* PointFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointFactory.h; sourceTree = "<group>"; };
+		5BC7C60C17B7DB8D00A3ABE5 /* ProcessController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProcessController.cpp; sourceTree = "<group>"; };
+		5BC7C60D17B7DB8D00A3ABE5 /* ProcessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessController.h; sourceTree = "<group>"; };
+		5BC7C60E17B7DB8D00A3ABE5 /* Raster.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Raster.cpp; sourceTree = "<group>"; };
+		5BC7C60F17B7DB8D00A3ABE5 /* Raster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Raster.h; sourceTree = "<group>"; };
+		5BC7C61017B7DB8D00A3ABE5 /* Rect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rect.cpp; sourceTree = "<group>"; };
+		5BC7C61117B7DB8D00A3ABE5 /* Rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rect.h; sourceTree = "<group>"; };
+		5BC7C61217B7DB8D00A3ABE5 /* SimpleGeometry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleGeometry.cpp; sourceTree = "<group>"; };
+		5BC7C61317B7DB8D00A3ABE5 /* SimpleGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleGeometry.h; sourceTree = "<group>"; };
+		5BC7C61417B7DB8D00A3ABE5 /* SimpleSlicer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleSlicer.cpp; sourceTree = "<group>"; };
+		5BC7C61517B7DB8D00A3ABE5 /* SimpleSlicer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleSlicer.h; sourceTree = "<group>"; };
+		5BC7C61617B7DB8D00A3ABE5 /* SimpleTriangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleTriangle.cpp; sourceTree = "<group>"; };
+		5BC7C61717B7DB8D00A3ABE5 /* SimpleTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTriangle.h; sourceTree = "<group>"; };
+		5BC7C61817B7DB8D00A3ABE5 /* Slice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Slice.cpp; sourceTree = "<group>"; };
+		5BC7C61917B7DB8D00A3ABE5 /* Slice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slice.h; sourceTree = "<group>"; };
+		5BC7C61A17B7DB8D00A3ABE5 /* Slicer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Slicer.cpp; sourceTree = "<group>"; };
+		5BC7C61B17B7DB8D00A3ABE5 /* Slicer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slicer.h; sourceTree = "<group>"; };
+		5BC7C61C17B7DB8D00A3ABE5 /* Solid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Solid.cpp; sourceTree = "<group>"; };
+		5BC7C61D17B7DB8D00A3ABE5 /* Solid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Solid.h; sourceTree = "<group>"; };
+		5BC7C61E17B7DB8D00A3ABE5 /* STLParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = STLParser.cpp; sourceTree = "<group>"; };
+		5BC7C61F17B7DB8D00A3ABE5 /* STLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLParser.h; sourceTree = "<group>"; };
+		5BC7C62017B7DB8D00A3ABE5 /* TraditionalMesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TraditionalMesh.cpp; sourceTree = "<group>"; };
+		5BC7C62117B7DB8D00A3ABE5 /* TraditionalMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraditionalMesh.h; sourceTree = "<group>"; };
+		5BC7C62417B7DB8D00A3ABE5 /* Vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
+		5BC7C62517B7DB8D00A3ABE5 /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+		5BC7C64517B7DBF300A3ABE5 /* OpenGLImp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenGLImp.cpp; sourceTree = "<group>"; };
+		5BC7C64617B7DBF300A3ABE5 /* OpenGLImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLImp.h; sourceTree = "<group>"; };
+		5BC8B99517DE9E0B00EF0407 /* Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		5BC8B99617DE9E0B00EF0407 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		5BC8BA8117DFE49200EF0407 /* YangEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YangEdge.h; sourceTree = "<group>"; };
+		5BC8BA8217DFE49200EF0407 /* YangEdge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = YangEdge.cpp; sourceTree = "<group>"; };
+		5BC8BAD817E1600800EF0407 /* YangFacet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YangFacet.h; sourceTree = "<group>"; };
+		5BC8BAD917E1600800EF0407 /* YangFacet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = YangFacet.cpp; sourceTree = "<group>"; };
+		5BCA324F181D563800920DAC /* CSVWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSVWriter.h; sourceTree = "<group>"; };
+		5BCA3250181D563800920DAC /* CSVWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CSVWriter.cpp; sourceTree = "<group>"; };
+		5BCA327C181D64A200920DAC /* libboost_filesystem-mt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libboost_filesystem-mt.dylib"; path = "/opt/local/lib/libboost_filesystem-mt.dylib"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BC7C5D917B7DB1B00A3ABE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC7C5E417B7DB4700A3ABE5 /* GLUT.framework in Frameworks */,
+				5BC7C5E617B7DB4700A3ABE5 /* OpenGL.framework in Frameworks */,
+				5B1D0D5917D01E8B005F1733 /* libGLUTFramework.dylib in Frameworks */,
+				5B5475D4181B27CA005E3ED6 /* libboost_regex-mt.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B25121218228FE600F52CC0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5B64A34E17EBE558009757DC /* SetSlicer.cpp */,
+				5B1D0D5B17D01F55005F1733 /* NewSlicerGLUTOO.cpp */,
+				5BC8B99517DE9E0B00EF0407 /* Timer.cpp */,
+				5BC7C64517B7DBF300A3ABE5 /* OpenGLImp.cpp */,
+				5BC7C5E917B7DB8D00A3ABE5 /* ASCIIFileImp.cpp */,
+				5BC7C5EB17B7DB8D00A3ABE5 /* ASCIISTLParser.cpp */,
+				5BC7C5ED17B7DB8D00A3ABE5 /* BinarySTLParser.cpp */,
+				5BC7C5EF17B7DB8D00A3ABE5 /* ComplexGeometry.cpp */,
+				5BC7C5F117B7DB8D00A3ABE5 /* Contour.cpp */,
+				5BC7C5F317B7DB8D00A3ABE5 /* Facet.cpp */,
+				5BC7C5F517B7DB8D00A3ABE5 /* Geometry.cpp */,
+				5BC7C5F717B7DB8D00A3ABE5 /* GeometryList.cpp */,
+				5BC7C5F917B7DB8D00A3ABE5 /* Graphics.cpp */,
+				5BC7C5FB17B7DB8D00A3ABE5 /* GraphicsImp.cpp */,
+				5BC7C60017B7DB8D00A3ABE5 /* main.cpp */,
+				5BC7C60217B7DB8D00A3ABE5 /* Mesh.cpp */,
+				5BC7C60417B7DB8D00A3ABE5 /* Offset.cpp */,
+				5BC7C60617B7DB8D00A3ABE5 /* OrderedMesh.cpp */,
+				5BC7C60817B7DB8D00A3ABE5 /* Point.cpp */,
+				5BC7C60A17B7DB8D00A3ABE5 /* PointFactory.cpp */,
+				5BC7C60C17B7DB8D00A3ABE5 /* ProcessController.cpp */,
+				5BC7C60E17B7DB8D00A3ABE5 /* Raster.cpp */,
+				5BC7C61017B7DB8D00A3ABE5 /* Rect.cpp */,
+				5BC7C61217B7DB8D00A3ABE5 /* SimpleGeometry.cpp */,
+				5BC7C61417B7DB8D00A3ABE5 /* SimpleSlicer.cpp */,
+				5BC7C61617B7DB8D00A3ABE5 /* SimpleTriangle.cpp */,
+				5BC7C61817B7DB8D00A3ABE5 /* Slice.cpp */,
+				5BC7C61A17B7DB8D00A3ABE5 /* Slicer.cpp */,
+				5BC7C61C17B7DB8D00A3ABE5 /* Solid.cpp */,
+				5BC7C61E17B7DB8D00A3ABE5 /* STLParser.cpp */,
+				5BC7C62017B7DB8D00A3ABE5 /* TraditionalMesh.cpp */,
+				5BC7C62417B7DB8D00A3ABE5 /* Vector.cpp */,
+				5BC8BA8217DFE49200EF0407 /* YangEdge.cpp */,
+				5BC8BAD917E1600800EF0407 /* YangFacet.cpp */,
+				5B86E22C17EF447A0024378A /* TriangleSlicer.cpp */,
+				5BCA3250181D563800920DAC /* CSVWriter.cpp */,
+				5B2510F2182097C400F52CC0 /* TataSlicer.cpp */,
+				5BCA324F181D563800920DAC /* CSVWriter.h */,
+				5B2510F1182097C400F52CC0 /* TataSlicer.h */,
+				5BC8BA8117DFE49200EF0407 /* YangEdge.h */,
+				5BC8BAD817E1600800EF0407 /* YangFacet.h */,
+				5B86E22B17EF447A0024378A /* TriangleSlicer.h */,
+				5B64A34D17EBE558009757DC /* SetSlicer.h */,
+				5B1D0D5A17D01F55005F1733 /* NewSlicerGLUTOO.h */,
+				5BC8B99617DE9E0B00EF0407 /* Timer.h */,
+				5BC7C64617B7DBF300A3ABE5 /* OpenGLImp.h */,
+				5BC7C5EA17B7DB8D00A3ABE5 /* ASCIIFileImp.h */,
+				5BC7C5EC17B7DB8D00A3ABE5 /* ASCIISTLParser.h */,
+				5BC7C5EE17B7DB8D00A3ABE5 /* BinarySTLParser.h */,
+				5BC7C5F017B7DB8D00A3ABE5 /* ComplexGeometry.h */,
+				5BC7C5F217B7DB8D00A3ABE5 /* Contour.h */,
+				5BC7C5F417B7DB8D00A3ABE5 /* Facet.h */,
+				5BC7C5F617B7DB8D00A3ABE5 /* Geometry.h */,
+				5BC7C5F817B7DB8D00A3ABE5 /* GeometryList.h */,
+				5BC7C5FA17B7DB8D00A3ABE5 /* Graphics.h */,
+				5BC7C5FC17B7DB8D00A3ABE5 /* GraphicsImp.h */,
+				5BC7C5FF17B7DB8D00A3ABE5 /* List.h */,
+				5BC7C60317B7DB8D00A3ABE5 /* Mesh.h */,
+				5BC7C60517B7DB8D00A3ABE5 /* Offset.h */,
+				5BC7C60717B7DB8D00A3ABE5 /* OrderedMesh.h */,
+				5BC7C60917B7DB8D00A3ABE5 /* Point.h */,
+				5BC7C60B17B7DB8D00A3ABE5 /* PointFactory.h */,
+				5BC7C60D17B7DB8D00A3ABE5 /* ProcessController.h */,
+				5BC7C60F17B7DB8D00A3ABE5 /* Raster.h */,
+				5BC7C61117B7DB8D00A3ABE5 /* Rect.h */,
+				5BC7C61317B7DB8D00A3ABE5 /* SimpleGeometry.h */,
+				5BC7C61517B7DB8D00A3ABE5 /* SimpleSlicer.h */,
+				5BC7C61717B7DB8D00A3ABE5 /* SimpleTriangle.h */,
+				5BC7C61917B7DB8D00A3ABE5 /* Slice.h */,
+				5BC7C61B17B7DB8D00A3ABE5 /* Slicer.h */,
+				5BC7C61D17B7DB8D00A3ABE5 /* Solid.h */,
+				5BC7C61F17B7DB8D00A3ABE5 /* STLParser.h */,
+				5BC7C62117B7DB8D00A3ABE5 /* TraditionalMesh.h */,
+				5BC7C62517B7DB8D00A3ABE5 /* Vector.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		5BC7C5CC17B7DB0D00A3ABE5 = {
+			isa = PBXGroup;
+			children = (
+				5BC8B9C217DE9E7100EF0407 /* references */,
+				5B25121218228FE600F52CC0 /* Source */,
+				5BC7C60117B7DB8D00A3ABE5 /* Makefile */,
+				5BC7C5DC17B7DB1B00A3ABE5 /* Products */,
+				5BC7C5DE17B7DB1C00A3ABE5 /* NewSlicer-Info.plist */,
+				5B5475D3181B27CA005E3ED6 /* libboost_regex-mt.dylib */,
+				5BCA327C181D64A200920DAC /* libboost_filesystem-mt.dylib */,
+				5B25117918216D3400F52CC0 /* MeshSlicer.h */,
+				5B25117A18216D3400F52CC0 /* MeshSlicer.cpp */,
+			);
+			sourceTree = "<group>";
+		};
+		5BC7C5DC17B7DB1B00A3ABE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BC7C5DB17B7DB1B00A3ABE5 /* NewSlicer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BC8B9C217DE9E7100EF0407 /* references */ = {
+			isa = PBXGroup;
+			children = (
+				5BC7C5E317B7DB4700A3ABE5 /* GLUT.framework */,
+				5BC7C5E517B7DB4700A3ABE5 /* OpenGL.framework */,
+				5B1D0D5817D01E8B005F1733 /* libGLUTFramework.dylib */,
+				5B1D0D9317D3D513005F1733 /* libboost_regex.dylib */,
+			);
+			name = references;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BC7C5DA17B7DB1B00A3ABE5 /* NewSlicer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC7C5E117B7DB1C00A3ABE5 /* Build configuration list for PBXNativeTarget "NewSlicer" */;
+			buildPhases = (
+				5BC7C5D717B7DB1B00A3ABE5 /* Resources */,
+				5BC7C5D817B7DB1B00A3ABE5 /* Sources */,
+				5BC7C5D917B7DB1B00A3ABE5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewSlicer;
+			productName = NewSlicer;
+			productReference = 5BC7C5DB17B7DB1B00A3ABE5 /* NewSlicer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BC7C5CE17B7DB0D00A3ABE5 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5BC7C5D117B7DB0D00A3ABE5 /* Build configuration list for PBXProject "NewSlicer" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 5BC7C5CC17B7DB0D00A3ABE5;
+			productRefGroup = 5BC7C5DC17B7DB1B00A3ABE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BC7C5DA17B7DB1B00A3ABE5 /* NewSlicer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BC7C5D717B7DB1B00A3ABE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BC7C5D817B7DB1B00A3ABE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC7C62617B7DB8D00A3ABE5 /* ASCIIFileImp.cpp in Sources */,
+				5BC7C62717B7DB8D00A3ABE5 /* ASCIISTLParser.cpp in Sources */,
+				5BC7C62817B7DB8D00A3ABE5 /* BinarySTLParser.cpp in Sources */,
+				5BC7C62917B7DB8D00A3ABE5 /* ComplexGeometry.cpp in Sources */,
+				5BC7C62A17B7DB8D00A3ABE5 /* Contour.cpp in Sources */,
+				5BC7C62B17B7DB8D00A3ABE5 /* Facet.cpp in Sources */,
+				5BC7C62C17B7DB8D00A3ABE5 /* Geometry.cpp in Sources */,
+				5BC7C62D17B7DB8D00A3ABE5 /* GeometryList.cpp in Sources */,
+				5BC7C62E17B7DB8D00A3ABE5 /* Graphics.cpp in Sources */,
+				5BC7C62F17B7DB8D00A3ABE5 /* GraphicsImp.cpp in Sources */,
+				5BC7C63117B7DB8D00A3ABE5 /* main.cpp in Sources */,
+				5BC7C63217B7DB8D00A3ABE5 /* Makefile in Sources */,
+				5BC7C63317B7DB8D00A3ABE5 /* Mesh.cpp in Sources */,
+				5BC7C63417B7DB8D00A3ABE5 /* Offset.cpp in Sources */,
+				5BC7C63517B7DB8D00A3ABE5 /* OrderedMesh.cpp in Sources */,
+				5BC7C63617B7DB8D00A3ABE5 /* Point.cpp in Sources */,
+				5BC7C63717B7DB8D00A3ABE5 /* PointFactory.cpp in Sources */,
+				5BC7C63817B7DB8D00A3ABE5 /* ProcessController.cpp in Sources */,
+				5BC7C63917B7DB8D00A3ABE5 /* Raster.cpp in Sources */,
+				5BC7C63A17B7DB8D00A3ABE5 /* Rect.cpp in Sources */,
+				5BC7C63B17B7DB8D00A3ABE5 /* SimpleGeometry.cpp in Sources */,
+				5BC7C63C17B7DB8D00A3ABE5 /* SimpleSlicer.cpp in Sources */,
+				5BC7C63D17B7DB8D00A3ABE5 /* SimpleTriangle.cpp in Sources */,
+				5BC7C63E17B7DB8D00A3ABE5 /* Slice.cpp in Sources */,
+				5BC7C63F17B7DB8D00A3ABE5 /* Slicer.cpp in Sources */,
+				5BC7C64017B7DB8D00A3ABE5 /* Solid.cpp in Sources */,
+				5BC7C64117B7DB8D00A3ABE5 /* STLParser.cpp in Sources */,
+				5BC7C64217B7DB8D00A3ABE5 /* TraditionalMesh.cpp in Sources */,
+				5BC7C64417B7DB8D00A3ABE5 /* Vector.cpp in Sources */,
+				5BC7C64717B7DBF300A3ABE5 /* OpenGLImp.cpp in Sources */,
+				5B1D0D5C17D01F55005F1733 /* NewSlicerGLUTOO.cpp in Sources */,
+				5BC8B99717DE9E0B00EF0407 /* Timer.cpp in Sources */,
+				5BC8BA8317DFE49200EF0407 /* YangEdge.cpp in Sources */,
+				5BC8BADA17E1600800EF0407 /* YangFacet.cpp in Sources */,
+				5B64A34F17EBE558009757DC /* SetSlicer.cpp in Sources */,
+				5B86E22D17EF447A0024378A /* TriangleSlicer.cpp in Sources */,
+				5BCA3251181D563800920DAC /* CSVWriter.cpp in Sources */,
+				5B2510F3182097C400F52CC0 /* TataSlicer.cpp in Sources */,
+				5B25117B18216D3400F52CC0 /* MeshSlicer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5BC7C5CF17B7DB0D00A3ABE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		5BC7C5D017B7DB0D00A3ABE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		5BC7C5DF17B7DB1C00A3ABE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1 = x86_64;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include,
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"/Users/rodrigo/Projetos/GLUT-Object-Oriented-Framework/src\"";
+				INFOPLIST_FILE = "NewSlicer-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					/opt/local/lib,
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../GLUT-Object-Oriented-Framework/xcode/GLUT_Framework/build/Release\"";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = NewSlicer;
+			};
+			name = Debug;
+		};
+		5BC7C5E017B7DB1C00A3ABE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "NewSlicer-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					/opt/local/lib,
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../GLUT-Object-Oriented-Framework/xcode/GLUT_Framework/build/Release\"";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = NewSlicer;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BC7C5D117B7DB0D00A3ABE5 /* Build configuration list for PBXProject "NewSlicer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC7C5CF17B7DB0D00A3ABE5 /* Debug */,
+				5BC7C5D017B7DB0D00A3ABE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BC7C5E117B7DB1C00A3ABE5 /* Build configuration list for PBXNativeTarget "NewSlicer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC7C5DF17B7DB1C00A3ABE5 /* Debug */,
+				5BC7C5E017B7DB1C00A3ABE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BC7C5CE17B7DB0D00A3ABE5 /* Project object */;
+}
